@@ -6,3 +6,6 @@ In this repository you will find the next information:
 - Anonymous functions
 - Match operator
 - case, cond, and if
+- Keywords list and maps
+- Modules and functions
+- Capture sintax
