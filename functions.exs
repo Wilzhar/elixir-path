@@ -88,3 +88,16 @@ IO.puts(is_function(fun))
 
 greetings = &"Hello #{&2} #{&1}!"
 IO.puts(greetings.("Wilmar", "Valencia"))
+
+# Recursion
+defmodule Recursion do
+  def factorial(n, accumulator) when n > 0 do
+    factorial(n - 1, accumulator * n)
+  end
+
+  def factorial(0, accumulator) do
+    accumulator
+  end
+end
+
+IO.puts("The factorial of 5 is #{Recursion.factorial(5, 1)}")

@@ -9,3 +9,4 @@ In this repository you will find the next information:
 - Keywords list and maps
 - Modules and functions
 - Capture sintax
+- Recursion
