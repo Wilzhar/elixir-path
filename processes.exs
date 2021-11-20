@@ -32,6 +32,33 @@ task =
 Task.await(task, 7000)
 IO.puts("Message after asynchronous task")
 
+defmodule KV do
+  def start_link do
+    Task.start_link(fn -> loop(%{}) end)
+  end
+
+  defp loop(map) do
+    receive do
+      {:get, key, caller} ->
+        send(caller, Map.get(map, key))
+        loop(map)
+
+      {:put, key, value} ->
+        loop(Map.put(map, key, value))
+    end
+  end
+end
+
+{:ok, pid} = KV.start_link()
+
+IO.puts("Put request")
+IO.puts(inspect(send(pid, {:put, :hello, :world})))
+IO.puts("")
+
+IO.puts("Get request")
+IO.puts(inspect(send(pid, {:get, :hello, self()})))
+IO.puts("")
+
 # Reading files
 IO.puts("The file content is")
 stream = File.stream!("file.txt")
