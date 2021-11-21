@@ -13,3 +13,6 @@ In this repository you will find the next information:
 - Enum
 - Processes
 - IO file system
+- Import, use, require and alias
+- Module attributes (Most of them for module documentation)
+- Structs
