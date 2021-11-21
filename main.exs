@@ -3,9 +3,9 @@
 # use elixirc filename.ex command to compile files
 alias Util.{Math, Str}
 IO.puts(Math.sum(2, 4))
-IO.puts(Str.concat("Wilmar", "Valencia", "-"))
-IO.puts(Str.concat("Wilmar", "Valencia"))
-IO.puts(Str.concat2("Wilmar", "S.", "Valencia"))
+IO.puts(Str.join("Wilmar", "Valencia", "-"))
+IO.puts(Str.join("Wilmar", "Valencia"))
+IO.puts(Str.join2("Wilmar", "S.", "Valencia"))
 
 math_struct = %Math{sqrt: "sqrt"}
 

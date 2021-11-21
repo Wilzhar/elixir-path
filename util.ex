@@ -35,16 +35,22 @@ defmodule Util do
     defstruct name: "John", age: 27
 
     @doc """
-    Calculates the sum of two numbers.
+    Join two string with the given separator (" " by default)
     """
-    def concat(a, b, separator \\ get_separator()) do
+    def join(a, b, separator \\ get_separator()) do
       a <> separator <> b
     end
 
-    def concat2(a, b, c, separator \\ get_separator()) do
+    @doc """
+    Join three string with the given separator (" " by default)
+    """
+    def join2(a, b, c, separator \\ get_separator()) do
       a <> separator <> b <> separator <> c
     end
 
+    @doc """
+    Get @separator value
+    """
     defp get_separator() do
       @separator
     end
