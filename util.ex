@@ -48,9 +48,6 @@ defmodule Util do
       a <> separator <> b <> separator <> c
     end
 
-    @doc """
-    Get @separator value
-    """
     defp get_separator() do
       @separator
     end
