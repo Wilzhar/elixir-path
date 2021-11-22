@@ -70,7 +70,7 @@ end
 
 IO.puts(Util.sum(2, 5))
 IO.puts(Util.greet("Wilmar", "Valencia", "_"))
-IO.puts(Util.greet("Wilmar", "Valencia", " "))
+IO.puts(Util.greet("Wilmar", "Valencia"))
 IO.puts("")
 
 IO.puts("Util.zero?(0)")

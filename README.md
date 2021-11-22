@@ -10,3 +10,9 @@ In this repository you will find the next information:
 - Modules and functions
 - Capture sintax
 - Recursion
+- Enum
+- Processes
+- IO file system
+- Import, use, require and alias
+- Module attributes (Most of them for module documentation)
+- Structs
