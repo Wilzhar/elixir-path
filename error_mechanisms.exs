@@ -15,6 +15,7 @@ error =
 
 IO.puts(inspect(error))
 
+# throw is used when you want to retrieve values and catch it later
 error2 =
   try do
     # This will throw an error
@@ -25,6 +26,7 @@ error2 =
 
 IO.puts(error2)
 
+# Exit is used when the process finish
 error3 =
   try do
     exit("I am exiting")
