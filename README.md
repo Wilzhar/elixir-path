@@ -16,3 +16,6 @@ In this repository you will find the next information:
 - Import, use, require and alias
 - Module attributes (Most of them for module documentation)
 - Structs
+- Protocols
+- Comprehensions
+- Sigils
