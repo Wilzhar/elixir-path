@@ -19,3 +19,8 @@ In this repository you will find the next information:
 - Protocols
 - Comprehensions
 - Sigils
+- try, catch, and rescue
+- Typespecs and behaviours
+- Debugging
+- Erlang libraries
+
