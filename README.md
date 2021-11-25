@@ -32,3 +32,4 @@ Advanced:
 - GenServer
 - Supervisor and application
 - Dynamic supervisors
+- ETS as cache
