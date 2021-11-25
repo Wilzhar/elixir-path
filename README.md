@@ -1,6 +1,7 @@
 # Learning elixir path
 In this repository you will find the next information:
 
+Basics 
 - Basic types
 - Basic operator
 - Anonymous functions
@@ -19,3 +20,13 @@ In this repository you will find the next information:
 - Protocols
 - Comprehensions
 - Sigils
+- try, catch, and rescue
+- Typespecs and behaviours
+- Debugging
+- Erlang libraries
+
+Advanced:
+
+- Introduction to mix
+- Agent
+- GenServer
