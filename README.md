@@ -33,3 +33,4 @@ Advanced:
 - Supervisor and application
 - Dynamic supervisors
 - ETS as cache
+- Dependencies and umbrella projects
