@@ -33,3 +33,6 @@ Advanced:
 - Supervisor and application
 - Dynamic supervisors
 - ETS as cache
+- Dependencies and umbrella projects
+- Task and gen_tcp
+- Doctests, patterns and with
