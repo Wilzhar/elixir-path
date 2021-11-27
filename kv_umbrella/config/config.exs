@@ -9,6 +9,15 @@
 # move said applications out of the umbrella.
 import Config
 
+config :kv, :routing_table, [{?a..?z, node()}]
+
+if config_env() == :prod do
+  config :kv, :routing_table, [
+    {?a..?m, :"foo@wilmar-pc"},
+    {?n..?z, :"bar@wilmar-pc"}
+  ]
+end
+
 # Sample configuration:
 #
 #     config :logger, :console,
