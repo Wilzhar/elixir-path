@@ -45,3 +45,4 @@ Ecto:
 - Changesets
 - Executables
 - Associtations
+- Querying
