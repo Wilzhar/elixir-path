@@ -43,3 +43,5 @@ Ecto:
 
 - Basics
 - Changesets
+- Executables
+- Associtations
