@@ -36,3 +36,5 @@ Advanced:
 - Dependencies and umbrella projects
 - Task and gen_tcp
 - Doctests, patterns and with
+- Distributed tasks and tags
+- Configuration and releases
