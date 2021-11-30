@@ -3,9 +3,9 @@ defmodule Example do
   EEx.function_from_file(:def, :greeting, "greeting.eex", [:name])
 end
 
-IO.inspect(Example.greeting("Sean"))
+IO.puts(Example.greeting("Sean"))
 
-IO.inspect(EEx.eval_string("Hi, <%= @name %>", assigns: [name: "Sean"]))
+IO.puts(EEx.eval_string("Hi, <%= @name %>", assigns: [name: "Sean"]))
 
 if_statement = """
 <%= if condition do %>
@@ -15,4 +15,4 @@ if_statement = """
 <% end %>
 """
 
-IO.inspect(EEx.eval_string(if_statement, condition: false, a: 2, b: 1))
+IO.puts(EEx.eval_string(if_statement, condition: false, a: 2, b: 1))
