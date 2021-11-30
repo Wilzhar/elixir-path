@@ -52,4 +52,4 @@ Metaprogramming:
 
 - Quote and unquote
 - Macros
-- Domain-specific languages
+- Domain-specific languages (DSL)

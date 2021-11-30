@@ -97,3 +97,13 @@ IO.puts(inspect(quote do: x))
 IO.puts(inspect(Sample.quoted()))
 
 IO.puts(inspect(Sample.run()))
+
+defmodule MyTest do
+  use TestCase
+
+  test "hello" do
+    "hello" = "world"
+  end
+end
+
+MyTest.run()
