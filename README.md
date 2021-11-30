@@ -38,3 +38,11 @@ Advanced:
 - Doctests, patterns and with
 - Distributed tasks and tags
 - Configuration and releases
+
+Ecto:
+
+- Basics
+- Changesets
+- Executables
+- Associtations
+- Querying
