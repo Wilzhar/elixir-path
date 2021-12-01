@@ -1,7 +1,8 @@
 # Learning elixir path
 In this repository you will find the next information:
 
-Basics 
+Basics:
+
 - Basic types
 - Basic operator
 - Anonymous functions
@@ -46,3 +47,9 @@ Ecto:
 - Executables
 - Associtations
 - Querying
+
+Metaprogramming:
+
+- Quote and unquote
+- Macros
+- Domain-specific languages (DSL)
