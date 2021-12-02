@@ -1,7 +1,8 @@
 # Learning elixir path
 In this repository you will find the next information:
 
-Basics 
+Basics:
+
 - Basic types
 - Basic operator
 - Anonymous functions
@@ -38,3 +39,24 @@ Advanced:
 - Doctests, patterns and with
 - Distributed tasks and tags
 - Configuration and releases
+
+Ecto:
+
+- Basics
+- Changesets
+- Executables
+- Associtations
+- Querying
+
+Metaprogramming:
+
+- Quote and unquote
+- Macros
+- Domain-specific languages (DSL)
+
+Specifics:
+
+- Plug
+- Embedded Elixir (EEx)
+- Mnesia
+- Debugging
