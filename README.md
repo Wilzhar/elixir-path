@@ -53,3 +53,10 @@ Metaprogramming:
 - Quote and unquote
 - Macros
 - Domain-specific languages (DSL)
+
+Specifics:
+
+- Plug
+- Embedded Elixir (EEx)
+- Mnesia
+- Debugging
